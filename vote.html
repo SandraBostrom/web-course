@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="vote.css" />
+    <link rel="stylesheet" href="vote.js" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"/>
+
+    <title>Rösta</title>
+
+  </head>
+
+  <body>
+
+      <div class="header">            
+        <div class="headerimage">
+                    <div class="topnav">
+                        <a class="active" href="index.html">Start</a>
+                        <a href="contact.html">Kontakt</a>
+                        <a href="vote.html">Rösta</a>
+                    </div>
+        </div>
+        </div>
+    <div class="container">
+      
+      <h1 id="semi1">Semifinal 1</h1>
+      
+      <div class="row">
+        <div class="row">
+          <div class="col-xl-4 austria">
+            <a href="https://www.youtube.com/watch?v=cOuiTJlBC50" target="_blank">
+            <h3>Austria</h3>
+            </a>            
+            <img class="img-thumbnail"src="images/austria.jpg" alt="Austria eurovision"/>
+
+            <div class="form-group">
+              <label class="col-xl-2 control-label" for="radios"
+                >Poäng</label>
+
+              <div class="col-xl-12">
+                <label class="radio-inline" for="radios-0">
+                  <input type="radio"name="radios" id="radios-0" value="2" checked="checked"/>2</label>
+                <label class="radio-inline" for="radios-1">
+                  <input type="radio" name="radios" id="radios-1" value="4" />
+                  4</label>
+                <label class="radio-inline" for="radios-2">
+                  <input type="radio" name="radios" id="radios-2" value="8" />
+                  8
+                </label>
+                <label class="radio-inline" for="radios-3">
+                  <input type="radio" name="radios" id="radios-3" value="10" />
+                  10
+                </label>
+
+              </div>
+
+              <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary"
+                >
+                  Rösta
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 azerbajdzjan">
+            <a href="https://www.youtube.com/watch?v=I0VzBCvO1Wk" target="_blank">
+            <h3>Azerbajdzjan</h3>
+            </a>
+
+            <img
+              class="img-thumbnail"
+              src="images/azerbajdzjan.jpg"
+              alt="Another alt text"
+            /><div class="form-group">
+                <label class="col-xl-2 control-label" for="radios">Poäng</label>
+                <div class="col-xl-12">
+                    <label class="radio-inline" for="radios-0">
+                        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+                        2
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="radios" id="radios-1" value="4" />
+                        4
+                    </label>
+                    <label class="radio-inline" for="radios-2">
+                        <input type="radio" name="radios" id="radios-2" value="8" />
+                        8
+                    </label>
+                    <label class="radio-inline" for="radios-3">
+                        <input type="radio" name="radios" id="radios-3" value="10" />
+                        10
+                    </label>
+                </div><div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+                        Rösta
+                    </button>
+                </div>
+             </div>
+          </div>
+        <div class="col-xl-4 belgia">
+          <a href="https://www.youtube.com/watch?v=lAqjksxc4iA" target="_blank">
+            <h3>Belgia</h3>
+
+          </a>
+             <img class="img-thumbnail" src="images/belgien.jpg" alt="Another alt text" />
+            <div class="form-group">
+                <label class="col-xl-2 control-label" for="radios">Poäng</label>
+                <div class="col-xl-12">
+                    <label class="radio-inline" for="radios-0">
+                        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+                        2
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="radios" id="radios-1" value="4" />
+                        4
+                    </label>
+                    <label class="radio-inline" for="radios-2">
+                        <input type="radio" name="radios" id="radios-2" value="8" />
+                        8
+                    </label>
+                    <label class="radio-inline" for="radios-3">
+                        <input type="radio" name="radios" id="radios-3" value="10" />
+                        10
+                    </label>
+                </div><div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+                        Rösta
+                    </button>
+                </div>
+            </div>
+        </div>
+<div class="col-xl-4 cypern">
+  <a href="https://www.youtube.com/watch?v=Jl_qEw_4OK0" target="_blank">
+  <h3>Cypern</h3>
+  </a>    
+<img class="img-thumbnail" src="images/cypern.jpg" alt="Another alt text" />
+    <div class="form-group">
+        <label class="col-xl-2 score" for="radios">Poäng</label>
+        <div class="col-xl-12">
+            <label class="radio-inline" for="radios-0">
+                <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+                2
+            </label>
+            <label class="radio-inline" for="radios-1">
+                <input type="radio" name="radios" id="radios-1" value="4" />
+                4
+            </label>
+            <label class="radio-inline" for="radios-2">
+                <input type="radio" name="radios" id="radios-2" value="8" />
+                8
+            </label>
+            <label class="radio-inline" for="radios-3">
+                <input type="radio" name="radios" id="radios-3" value="10" />
+                10
+            </label>
+        </div><div class="col-md-4">
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+                Rösta
+            </button>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 ireland">
+  <a href="https://www.youtube.com/watch?v=HLgE0Ayl5Hc" target="_blank">
+  <h3>Irland</h3>
+</a>    
+
+  <img class="img-thumbnail" src="images/ireland.jpg" alt="Another alt text" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+<div class="col-xl-4 israel">
+  <a href="https://www.youtube.com/watch?v=YjzyZZ-oidc" target="_blank">
+    <h3>Israel</h3>
+  </a>
+
+  <img class="img-thumbnail" src="images/israel.jpg" alt="Another alt text" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+<div class="col-xl-4 croatia">
+  <a href="https://www.youtube.com/watch?v=2rOwScdxjJU"  target="_blank"><h3>Kroatien</h3></a>
+  <img class="img-thumbnail" src="images/croatia.jpg" alt="Another alt text" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+<div class="col-xl-4 lietuva">
+  <a href="https://www.youtube.com/watch?v=1EAUxuuu1w8" target="_blank">
+    <h3>Litauen</h3>
+  </a>
+  <img class="img-thumbnail" src="images/lietuva.jpg" alt="lietuva eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 malta">
+  <a href="https://www.youtube.com/watch?v=CFCn_8oViRw" target="_blank">
+    <h3>Malta</h3>
+  </a>
+  <img class="img-thumbnail" src="images/malta.jpg" alt="malta eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 northMakedonia">
+  <a href="https://www.youtube.com/watch?v=xPZumQQExQc" target="_blank">
+    <h3>Nord Makedonien</h3>
+  </a>
+  <img class="img-thumbnail" src="images/northmacedonia.jpg" alt="northMakedonia eurovision />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+</div>
+
+<div class="col-xl-4 norway">
+  <a href="https://www.youtube.com/watch?v=o9atJbnqhJU" target="_blank">
+    <h3>Norge</h3>
+  </a>
+  <img class="img-thumbnail" src="images/norway.jpg" alt="norway eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 romania">
+  <a href="https://www.youtube.com/watch?v=TmqSU3v_Mtw" target="_blank">
+    <h3>Rumänien</h3>
+  </a>
+  <img class="img-thumbnail" src="images/romania.jpg" alt="romania eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 russia">
+  <a href="https://www.youtube.com/watch?v=L_dWvTCdDQ4" target="_blank">
+    <h3>Ryssland</h3>
+  </a>
+  <img class="img-thumbnail" src="images/russia.jpg" alt="russia eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 slovenia">
+  <a href="https://www.youtube.com/watch?v=weLeotNwexg" target="_blank">
+    <h3>Slovenien</h3>
+  </a>
+  <img class="img-thumbnail" src="images/slovenia.jpg" alt="Slovenia eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 sweden">
+  <a href="https://www.youtube.com/watch?v=7EpSBDPlZn4" target="_blank">
+    <h3>Sverige</h3>
+  </a>
+  <img class="img-thumbnail" src="images/sverige.jpg" alt="sweden eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-4 ukrain">
+  <a href="https://www.youtube.com/watch?v=zNetXPSld50" target="_blank">
+    <h3>Ukraina</h3>
+  </a>
+  <img class="img-thumbnail" src="images/ukraine.jpg" alt="ukrain eurovision />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+
+<div class="col-xl-4 whiterussia">
+  <a href="https://www.youtube.com/watch?v=F0wfxz5zq04" target="_blank">
+    <h3>Vitryssland</h3>
+  </a>
+  <img class="img-thumbnail" src="images/whiterussia.jpg" alt="belaros eurovision" />
+
+  <div class="form-group">
+    <label class="col-xl-2 control-label" for="radios">Poäng</label>
+    <div class="col-xl-12">
+      <label class="radio-inline" for="radios-0">
+        <input type="radio" name="radios" id="radios-0" value="2" checked="checked" />
+        2
+      </label>
+      <label class="radio-inline" for="radios-1">
+        <input type="radio" name="radios" id="radios-1" value="4" />
+        4
+      </label>
+      <label class="radio-inline" for="radios-2">
+        <input type="radio" name="radios" id="radios-2" value="8" />
+        8
+      </label>
+      <label class="radio-inline" for="radios-3">
+        <input type="radio" name="radios" id="radios-3" value="10" />
+        10
+      </label>
+    </div>
+    <div class="col-md-4">
+      <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+        Rösta
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+        
+    </div>
+  </body>
+</html>
